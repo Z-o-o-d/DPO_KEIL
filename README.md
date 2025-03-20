@@ -1,6 +1,6 @@
-### 坑爹的keil插件
+### 坑爹的[Keil Assistant](https://marketplace.visualstudio.com/items?itemName=CL.keil-assistant)插件
 
-CSDN的屎乱教用别的编译器，使用时要添加AC6的库例如
+[CSDN的屎](https://blog.csdn.net/Johnor/article/details/134353311)乱教用别的编译器，使用时要添加AC6的库例如
 
 ```
 
@@ -10,4 +10,4 @@ CSDN的屎乱教用别的编译器，使用时要添加AC6的库例如
 
 在.vscode/c_cpp_properties.json的includePath添加这个目录记得加","
 
-Keil Assistant[https://marketplace.visualstudio.com/items?itemName=CL.keil-assistant]没添加这个库文件，而且开启的目录是MDK的目录，不是上一级目录，其他文件要上git换目录才可以，还有，他的快捷键还不能调用，只能鼠标去点
+[Keil Assistant](https://marketplace.visualstudio.com/items?itemName=CL.keil-assistant) 没添加这个库文件，而且开启的目录是MDK的目录，不是上一级目录，其他文件要上git换目录才可以，还有，他的快捷键还不能调用，只能鼠标去点
