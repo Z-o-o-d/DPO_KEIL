@@ -6,7 +6,7 @@
 
 /* choose a Hardware SPI port to use. */
 #define ST7789_SPI_PORT hspi3
-extern I2C_HandleTypeDef ST7789_SPI_PORT;
+extern SPI_HandleTypeDef ST7789_SPI_PORT;
 
 /* choose whether use DMA or not */
 #define USE_DMA

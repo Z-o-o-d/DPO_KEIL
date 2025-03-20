@@ -9,6 +9,9 @@
 //  @Contact : ${EMAIL}
 // -------------------------------
 
+#ifndef __FT6336_H
+#define __FT6336_H
+
 #include "main.h"
 #include "stm32g4xx_hal.h"
 
@@ -17,10 +20,10 @@
 #define SCREEN_HEIGHT 240     // 替换为实际屏幕高度
 
 #define FT6336_I2C_PORT hi2c3
-extern I2C_HandleTypeDef FT6336_I2C_PORT;
 
 // 定义一个结构体，其中包含两个独立的触摸点 (point1 和 point2)
-typedef struct {
+typedef struct
+{
   uint16_t point1_x; // 第一个触摸点的 X 坐标
   uint16_t point1_y; // 第一个触摸点的 Y 坐标
   uint16_t point2_x; // 第二个触摸点的 X 坐标
@@ -64,9 +67,9 @@ typedef struct {
 #define FT6336_RELEASE_CODE_ID 0xAF
 #define FT6336_STATE 0xBC
 
-#define FT6336_RST_L                                                           \
+#define FT6336_RST_L \
   HAL_GPIO_WritePin(FT6336_RST_GPIO_Port, FT6336_RST_Pin, GPIO_PIN_RESET)
-#define FT6336_RST_H                                                           \
+#define FT6336_RST_H \
   HAL_GPIO_WritePin(FT6336_RST_GPIO_Port, FT6336_RST_Pin, GPIO_PIN_SET)
 
 extern TouchPoints_HandleTypeDef TouchPoints;
@@ -75,3 +78,5 @@ void FT6336_Init();
 void FT6336_GetTouchPoint(TouchPoints_HandleTypeDef *touchPoints);
 
 // void ReadTouchData();
+
+#endif

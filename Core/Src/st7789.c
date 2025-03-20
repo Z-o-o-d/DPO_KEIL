@@ -10,6 +10,8 @@ uint16_t DMA_MIN_SIZE = 16;
  */
  #define HOR_LEN 	5	//	Also mind the resolution of your screen!
 uint16_t disp_buf[ST7789_WIDTH * HOR_LEN];
+
+unsigned char BUFFER_Display[100]={0};
 #endif
 
 /**
@@ -741,7 +743,11 @@ void ST7789_Test(void)
 	HAL_Delay(1000);
 
 	//	If FLASH cannot storage anymore datas, please delete codes below.
-	ST7789_Fill_Color(WHITE);
-	ST7789_DrawImage(0, 0, 128, 128, (uint16_t *)saber);
-	HAL_Delay(3000);
+//	ST7789_Fill_Color(WHITE);
+//	ST7789_DrawImage(0, 0, 128, 128, (uint16_t *)saber);
+//	HAL_Delay(3000);
 }
+
+
+
+

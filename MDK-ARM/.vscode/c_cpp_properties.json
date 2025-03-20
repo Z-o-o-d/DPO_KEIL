@@ -8,13 +8,19 @@
                 "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Drivers\\STM32G4xx_HAL_Driver\\Inc\\Legacy",
                 "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Drivers\\CMSIS\\Device\\ST\\STM32G4xx\\Include",
                 "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Drivers\\CMSIS\\Include",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\USB_Device\\App",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\USB_Device\\Target",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Inc",
                 "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\ARM\\ARMCLANG\\include",
                 "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux",
                 "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
                 "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\ARM\\ARMCLANG\\include\\libcxx",
                 "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM",
                 "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Core\\Src",
-                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Drivers\\STM32G4xx_HAL_Driver\\Src"
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Drivers\\STM32G4xx_HAL_Driver\\Src",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Src",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

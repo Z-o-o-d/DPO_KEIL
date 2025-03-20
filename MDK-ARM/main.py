@@ -130,5 +130,9 @@ if __name__ == "__main__":
     log_path = "C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\.vscode\\uv4.log"
 
     json_data = generate_keil_project_json(uv4_caller_path, uv4_path, prj_path, target_name, log_path)
-    print(json.dumps(json_data, indent=4))
+
+    # 保存为 tasks.json 文件
+    with open('tasks.json', 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, indent=4)
+    print("已成功保存为 tasks.json 文件。")
     

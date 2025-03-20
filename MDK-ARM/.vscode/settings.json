@@ -9,6 +9,9 @@
         "stm32_hal_legacy.h": "c",
         "ft6336.h": "c",
         "st7789.h": "c",
-        "stm32g4xx_hal_dma.h": "c"
+        "stm32g4xx_hal_dma.h": "c",
+        "stm32g4xx_hal_tim.h": "c",
+        "ws2812.h": "c",
+        "aht20.h": "c"
     }
 }
