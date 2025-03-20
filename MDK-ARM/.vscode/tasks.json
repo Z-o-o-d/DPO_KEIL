@@ -2,49 +2,113 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Keil Build",
+            "label": "Rebuild Keil Project",
             "type": "shell",
-            "command": "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe",
+            "command": "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\Uv4Caller.exe",
             "args": [
-                "-r",
-                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx",
-                "-j0",
-                "-t",
-                "DPO_KEIL",
                 "-o",
-                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\.vscode\\uv4.log"
+                "C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\.vscode\\uv4.log",
+                "--uv4Path",
+                "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe",
+                "--prjPath",
+                "C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx",
+                "--targetName",
+                "DPO_KEIL",
+                "-c",
+                "'C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe -r C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx -j0 -t DPO_KEIL'"
             ],
-            "problemMatcher": [
-                {
-                    "owner": "keil",
-                    "fileLocation": [
-                        "relative",
-                        "${workspaceFolder}"
-                    ],
-                    "pattern": {
-                        "regexp": "^(.*?)(?::\\s+(Error|Warning|info):\\s+(.*?):\\s+(.*))?.*$",
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^(..\\/[^:]+):(\\d+):\\s*(warning|error):\\s*(.*)$",
                         "file": 1,
-                        "severity": {
-                            "value": 2,
-                            "map": {
-                                "Error": "error",
-                                "Warning": "warning",
-                                "info": "information"
-                            }
-                        },
-                        "code": 3,
+                        "line": 2,
+                        "severity": 3,
                         "message": 4
                     }
-                }
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared",
-                "clear": false,
-                "close": false
+                ]
             },
             "group": {
                 "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build Keil Project",
+            "type": "shell",
+            "command": "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\Uv4Caller.exe",
+            "args": [
+                "-o",
+                "C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\.vscode\\uv4.log",
+                "--uv4Path",
+                "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe",
+                "--prjPath",
+                "C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx",
+                "--targetName",
+                "DPO_KEIL",
+                "-c",
+                "'C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe -b C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx -j0 -t DPO_KEIL'"
+            ],
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^(..\\/[^:]+):(\\d+):\\s*(warning|error):\\s*(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "severity": 3,
+                        "message": 4
+                    }
+                ]
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "Flash Keil Project",
+            "type": "shell",
+            "command": "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\Uv4Caller.exe",
+            "args": [
+                "-o",
+                "C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\.vscode\\uv4.log",
+                "--uv4Path",
+                "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe",
+                "--prjPath",
+                "C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx",
+                "--targetName",
+                "DPO_KEIL",
+                "-c",
+                "'C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe -f C:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx -j0 -t DPO_KEIL'"
+            ],
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^(..\\/[^:]+):(\\d+):\\s*(warning|error):\\s*(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "severity": 3,
+                        "message": 4
+                    }
+                ]
+            },
+            "group": {
+                "kind": "test",
                 "isDefault": true
             }
         }

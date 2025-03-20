@@ -1,15 +1,15 @@
-# Keil 可执行文件路径
-KEIL_PATH := C:/Users/87407/AppData/Local/Keil_v5/UV4/UV4.exe
-# Keil 项目文件路径
-PROJECT_FILE := MDK-ARM/DPO_KEIL.uvprojx
+# 定义目录和文件路径
+KEIL_UV4_EXE := C:\Users\87407\AppData\Local\Keil_v5\UV4\UV4.exe
+PROJECT_FILE := c:\Users\87407\Keil_prj\DPO_KEIL\DPO_KEIL\MDK-ARM\DPO_KEIL.uvprojx
+TARGET_NAME := DPO_KEIL
+LOG_FILE := c:\Users\87407\Keil_prj\DPO_KEIL\DPO_KEIL\MDK-ARM\.vscode\uv4.log
 
-# 编译目标
-all:
-    $(KEIL_PATH) -r $(PROJECT_FILE) -j0 -t DPO_KEIL
+.PHONY: build clean
 
-# 清理目标（删除生成的中间文件和最终可执行文件等）
-clean:
-    rm -f MDK-ARM/*.axf
-    rm -f MDK-ARM/*.hex
-    rm -f MDK-ARM/*.elf
-    # 可以根据实际情况添加更多需要删除的文件
+build:
+	$(KEIL_UV4_EXE) -r $(PROJECT_FILE) -j0 -t $(TARGET_NAME) -o $(LOG_FILE)
+
+# clean:
+# 	@echo "Cleaning is not fully implemented yet."
+    
+	
