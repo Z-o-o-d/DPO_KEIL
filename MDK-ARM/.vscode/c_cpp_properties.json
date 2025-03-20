@@ -14,8 +14,7 @@
                 "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\ARM\\ARMCLANG\\include\\libcxx",
                 "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM",
                 "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Core\\Src",
-                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Drivers\\STM32G4xx_HAL_Driver\\Src",
-                "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\ARM\\ARMCLANG\\include"
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\Drivers\\STM32G4xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

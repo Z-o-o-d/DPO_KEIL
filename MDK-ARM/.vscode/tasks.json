@@ -2,14 +2,51 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "arm-debugger.flash",
-            "serialNumber": "${command:device-manager.getSerialNumber}",
-            "programs": "${command:cmsis-csolution.getBinaryFiles}",
-            "cmsisPack": "${command:cmsis-csolution.getTargetPack}",
-            "deviceName": "${command:cmsis-csolution.getDeviceName}",
-            "processorName": "${command:cmsis-csolution.getProcessorName}",
-            "problemMatcher": [],
-            "label": "Flash Device"
+            "label": "Keil Build",
+            "type": "shell",
+            "command": "C:\\Users\\87407\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe",
+            "args": [
+                "-r",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\DPO_KEIL.uvprojx",
+                "-j0",
+                "-t",
+                "DPO_KEIL",
+                "-o",
+                "c:\\Users\\87407\\Keil_prj\\DPO_KEIL\\DPO_KEIL\\MDK-ARM\\.vscode\\uv4.log"
+            ],
+            "problemMatcher": [
+                {
+                    "owner": "keil",
+                    "fileLocation": [
+                        "relative",
+                        "${workspaceFolder}"
+                    ],
+                    "pattern": {
+                        "regexp": "^(.*?)(?::\\s+(Error|Warning|info):\\s+(.*?):\\s+(.*))?.*$",
+                        "file": 1,
+                        "severity": {
+                            "value": 2,
+                            "map": {
+                                "Error": "error",
+                                "Warning": "warning",
+                                "info": "information"
+                            }
+                        },
+                        "code": 3,
+                        "message": 4
+                    }
+                }
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": false,
+                "close": false
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

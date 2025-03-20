@@ -59,6 +59,10 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_ONBARD_Pin GPIO_PIN_5
 #define LED_ONBARD_GPIO_Port GPIOC
+#define ST7789_DC_Pin GPIO_PIN_11
+#define ST7789_DC_GPIO_Port GPIOC
+#define FT6336_RST_Pin GPIO_PIN_2
+#define FT6336_RST_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 
