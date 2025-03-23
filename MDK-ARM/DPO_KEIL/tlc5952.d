@@ -21,6 +21,9 @@ dpo_keil/tlc5952.o: ..\Core\Src\TLC5952.c ..\Core\Inc\TLC5952.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h \
@@ -28,5 +31,7 @@ dpo_keil/tlc5952.o: ..\Core\Src\TLC5952.c ..\Core\Inc\TLC5952.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h

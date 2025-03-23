@@ -1,6 +1,6 @@
 #include "TLC5952.h"
 
-TLC5952_AllDataDef allData = {0};
+TLC5952_AllDataDef TLC5952Data = {0};
 
 /**
  * @brief 初始化 TLC5952
@@ -42,7 +42,7 @@ void TLC5952_WriteBit(uint8_t bit)
 void TLC5952_WriteLED(void)
 {
     TLC5952_WriteBit(0);
-    uint32_t *data = (uint32_t *)&allData;
+    uint32_t *data = (uint32_t *)&TLC5952Data;
     for (int8_t i = 23; i >= 0; i--)
     {
         uint8_t currentBit = (*data >> i) & 0x01;
@@ -59,16 +59,16 @@ void TLC5952_WriteLED(void)
 void TLC5952_WriteControl(void) {
     TLC5952_WriteBit(1);
     for (int i = 6; i >= 0; i--) {
-        TLC5952_WriteBit((allData.red_brightness >> i) & 0x01);
+        TLC5952_WriteBit((TLC5952Data.red_brightness >> i) & 0x01);
     }
     for (int i = 6; i >= 0; i--) {
-        TLC5952_WriteBit((allData.green_brightness >> i) & 0x01);
+        TLC5952_WriteBit((TLC5952Data.green_brightness >> i) & 0x01);
     }
     for (int i = 6; i >= 0; i--) {
-        TLC5952_WriteBit((allData.blue_brightness >> i) & 0x01);
+        TLC5952_WriteBit((TLC5952Data.blue_brightness >> i) & 0x01);
     }
     for (int i = 2; i >= 0; i--) {
-        TLC5952_WriteBit((allData.detection_voltage_select >> i) & 0x01);
+        TLC5952_WriteBit((TLC5952Data.detection_voltage_select >> i) & 0x01);
     }
     TLC5952_LAT_HIGH();
     TLC5952_LAT_LOW();

@@ -1,13 +1,13 @@
 Dependencies for Project 'DPO_KEIL', Target 'DPO_KEIL': (DO NOT MODIFY !)
 CompilerVersion: 6220000::V6.22::ARMCLANG
-F (startup_stm32g474xx.s)(0x67DC803E)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32G474xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o dpo_keil/startup_stm32g474xx.o)
-F (..\Core\Src\fonts.c)(0x67DC7C5F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/fonts.o -MMD)
+F (startup_stm32g474xx.s)(0x67E06F56)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32G474xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o dpo_keil/startup_stm32g474xx.o)
+F (..\Core\Src\fonts.c)(0x67DCAFD6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/fonts.o -MMD)
 I (..\Core\Inc\fonts.h)(0x67DC7AF2)
-F (..\Core\Src\ft6336.c)(0x67DC7AD1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/ft6336.o -MMD)
+F (..\Core\Src\ft6336.c)(0x67DC7AD1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/ft6336.o -MMD)
 I (..\Core\Inc\FT6336.h)(0x67DC7AD9)
-I (..\Core\Inc\main.h)(0x67DC803C)
+I (..\Core\Inc\main.h)(0x67E06F54)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -28,6 +28,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -41,12 +42,12 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (..\Core\Src\st7789.c)(0x67DC7B4B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/st7789.o -MMD)
+F (..\Core\Src\st7789.c)(0x67DC7B4B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/st7789.o -MMD)
 I (..\Core\Inc\st7789.h)(0x67DC71F1)
 I (..\Core\Inc\fonts.h)(0x67DC7AF2)
-I (..\Core\Inc\main.h)(0x67DC803C)
+I (..\Core\Inc\main.h)(0x67E06F54)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -67,6 +68,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -80,11 +82,11 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (..\Core\Src\Views.c)(0x67DC7A81)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/views.o -MMD)
-I (..\Core\Inc\Views.h)(0x67DC7A90)
-I (..\Core\Inc\main.h)(0x67DC803C)
+F (..\Core\Src\Views.c)(0x67DCAEB6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/views.o -MMD)
+I (..\Core\Inc\Views.h)(0x67DCAEDF)
+I (..\Core\Inc\main.h)(0x67E06F54)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -105,6 +107,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -120,11 +123,11 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
 I (..\Core\Inc\st7789.h)(0x67DC71F1)
 I (..\Core\Inc\fonts.h)(0x67DC7AF2)
-F (..\Core\Src\ws2812.c)(0x67CAC173)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/ws2812.o -MMD)
+F (..\Core\Src\ws2812.c)(0x67CAC173)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/ws2812.o -MMD)
 I (..\Core\Inc\ws2812.h)(0x67DC8107)
-I (..\Core\Inc\main.h)(0x67DC803C)
+I (..\Core\Inc\main.h)(0x67E06F54)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -145,6 +148,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -158,10 +162,10 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (..\Core\Src\MyLib.c)(0x67D0A5E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/mylib.o -MMD)
+F (..\Core\Src\MyLib.c)(0x67DFD865)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/mylib.o -MMD)
 I (..\Core\Inc\mylib.h)(0x67D0A5D8)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -182,6 +186,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -195,11 +200,12 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-I (..\Core\Inc\main.h)(0x67DC803C)
-F (../Core/Src/main.c)(0x67DC84BE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/main.o -MMD)
-I (..\Core\Inc\main.h)(0x67DC803C)
+I (..\Core\Inc\main.h)(0x67E06F54)
+F (..\Core\Src\aht20.c)(0x67DC83EA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/aht20.o -MMD)
+I (..\Core\Inc\aht20.h)(0x67DC83F8)
+I (..\Core\Inc\main.h)(0x67E06F54)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -220,6 +226,123 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
+F (..\Core\Src\mpu6050.c)(0x67DC87B0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/mpu6050.o -MMD)
+I (..\Core\Inc\mpu6050.h)(0x67DC87D4)
+I (..\Core\Inc\main.h)(0x67E06F54)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
+F (..\Core\Src\TLC5952.c)(0x67DFC543)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/tlc5952.o -MMD)
+I (..\Core\Inc\TLC5952.h)(0x67C7103F)
+I (..\Core\Inc\main.h)(0x67E06F54)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
+F (../Core/Src/main.c)(0x67E076F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/main.o -MMD)
+I (..\Core\Inc\main.h)(0x67E06F54)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -248,11 +371,12 @@ I (..\Core\Inc\fonts.h)(0x67DC7AF2)
 I (..\Core\Inc\TLC5952.h)(0x67C7103F)
 I (..\Core\Inc\ws2812.h)(0x67DC8107)
 I (..\Core\Inc\aht20.h)(0x67DC83F8)
-I (..\Core\Inc\Views.h)(0x67DC7A90)
-F (../Core/Src/stm32g4xx_it.c)(0x67DC803C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_it.o -MMD)
-I (..\Core\Inc\main.h)(0x67DC803C)
+I (..\Core\Inc\Views.h)(0x67DCAEDF)
+I (..\Core\Inc\mpu6050.h)(0x67DC87D4)
+F (../Core/Src/stm32g4xx_it.c)(0x67DFC6CF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_it.o -MMD)
+I (..\Core\Inc\main.h)(0x67E06F54)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -273,6 +397,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -286,11 +411,11 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_it.h)(0x67DC803C)
-F (../Core/Src/stm32g4xx_hal_msp.c)(0x67DC803C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_msp.o -MMD)
-I (..\Core\Inc\main.h)(0x67DC803C)
+I (..\Core\Inc\stm32g4xx_it.h)(0x67DFC6CF)
+F (../Core/Src/stm32g4xx_hal_msp.c)(0x67E06F53)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_msp.o -MMD)
+I (..\Core\Inc\main.h)(0x67E06F54)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -311,6 +436,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -324,11 +450,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (..\Core\Src\aht20.c)(0x67DC83EA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/aht20.o -MMD)
-I (..\Core\Inc\aht20.h)(0x67DC83F8)
-I (..\Core\Inc\main.h)(0x67DC803C)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pcd.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -349,6 +473,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -362,9 +487,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pcd.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pcd_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -385,6 +510,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -398,9 +524,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pcd_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_ll_usb.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -421,6 +547,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -434,9 +561,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_ll_usb.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -457,6 +584,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -470,9 +598,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_rcc.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -493,6 +621,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -506,9 +635,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_rcc.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_rcc_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -529,6 +658,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -542,9 +672,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_rcc_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_flash.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -565,6 +695,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -578,9 +709,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_flash.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_flash_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -601,6 +732,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -614,9 +746,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_flash_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_flash_ramfunc.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -637,6 +769,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -650,9 +783,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_flash_ramfunc.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_gpio.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -673,6 +806,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -686,9 +820,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_gpio.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_exti.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -709,6 +843,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -722,9 +857,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_exti.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_dma.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -745,6 +880,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -758,9 +894,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_dma.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_dma_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -781,6 +917,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -794,9 +931,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_dma_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pwr.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -817,6 +954,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -830,9 +968,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pwr.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pwr_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -853,6 +991,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -866,9 +1005,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_pwr_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_cortex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -889,6 +1028,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -902,9 +1042,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_cortex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_adc.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -925,6 +1065,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -938,9 +1079,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_adc.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_adc_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -961,6 +1102,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -974,9 +1116,10 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_adc_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_ll_adc.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_hrtim.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -997,6 +1140,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1010,10 +1154,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_ll_adc.o -MMD)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_i2c.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_i2c.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1034,6 +1177,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1047,9 +1191,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_i2c_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_i2c_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1070,6 +1214,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1083,9 +1228,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_uart.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_uart.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1106,6 +1251,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1119,9 +1265,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_uart_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_uart_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1142,6 +1288,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1155,9 +1302,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_spi.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_spi.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1178,6 +1325,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1191,9 +1339,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_spi_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_spi_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1214,6 +1362,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1227,9 +1376,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_tim.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_tim.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1250,6 +1399,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1263,9 +1413,9 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_tim_ex.o -MMD)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/stm32g4xx_hal_tim_ex.o -MMD)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1286,6 +1436,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1299,13 +1450,13 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../Core/Src/system_stm32g4xx.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/system_stm32g4xx.o -MMD)
+F (../Core/Src/system_stm32g4xx.c)(0x677B6C2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/system_stm32g4xx.o -MMD)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1322,6 +1473,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1335,13 +1487,13 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
-F (../USB_Device/Target/usbd_conf.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_conf.o -MMD)
+F (../USB_Device/Target/usbd_conf.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_conf.o -MMD)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1358,6 +1510,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1377,14 +1530,14 @@ I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc\usbd_cdc.h)(0x677B6C0D)
-F (../USB_Device/App/usb_device.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usb_device.o -MMD)
+F (../USB_Device/App/usb_device.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usb_device.o -MMD)
 I (..\USB_Device\App\usb_device.h)(0x67DC7D71)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1401,6 +1554,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1422,7 +1576,7 @@ I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x677B6C0D
 I (..\USB_Device\App\usbd_desc.h)(0x67DC7D71)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc\usbd_cdc.h)(0x677B6C0D)
 I (..\USB_Device\App\usbd_cdc_if.h)(0x67DC7D71)
-F (../USB_Device/App/usbd_desc.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_desc.o -MMD)
+F (../USB_Device/App/usbd_desc.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_desc.o -MMD)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x677B6C0D)
 I (..\USB_Device\Target\usbd_conf.h)(0x67DC7D71)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1430,7 +1584,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1447,6 +1601,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1464,7 +1619,7 @@ I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x677B6C0D)
 I (..\USB_Device\App\usbd_desc.h)(0x67DC7D71)
-F (../USB_Device/App/usbd_cdc_if.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_cdc_if.o -MMD)
+F (../USB_Device/App/usbd_cdc_if.c)(0x67DC7D71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_cdc_if.o -MMD)
 I (..\USB_Device\App\usbd_cdc_if.h)(0x67DC7D71)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc\usbd_cdc.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h)(0x677B6C0D)
@@ -1475,7 +1630,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1492,6 +1647,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1507,7 +1663,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x677B6C0D)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_core.o -MMD)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_core.o -MMD)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x677B6C0D)
 I (..\USB_Device\Target\usbd_conf.h)(0x67DC7D71)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x677B6C2C)
@@ -1515,7 +1671,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1532,6 +1688,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1548,7 +1705,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x677B6C0D)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_ctlreq.o -MMD)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_ctlreq.o -MMD)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h)(0x677B6C0D)
 I (..\USB_Device\Target\usbd_conf.h)(0x67DC7D71)
@@ -1557,7 +1714,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1574,6 +1731,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1589,7 +1747,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x677B6C0D)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_ioreq.o -MMD)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_ioreq.o -MMD)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h)(0x677B6C0D)
 I (..\USB_Device\Target\usbd_conf.h)(0x67DC7D71)
@@ -1598,7 +1756,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1615,6 +1773,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)
@@ -1630,7 +1789,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x677B6C2C)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x677B6C0D)
-F (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_cdc.o -MMD)
+F (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c)(0x677B6C0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../USB_Device/App -I ../USB_Device/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc-I./RTE/_DPO_KEIL-IC:/Users/87407/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/87407/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="540" -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o dpo_keil/usbd_cdc.o -MMD)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc\usbd_cdc.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h)(0x677B6C0D)
 I (..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h)(0x677B6C0D)
@@ -1640,7 +1799,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x677B6C2C)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x677B6C0C)
 I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x677B6C2C)
-I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67DC7302)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x67E06F53)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x677B6C2C)
@@ -1657,6 +1816,7 @@ I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x677B6C2C)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_hrtim.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_i2c_ex.h)(0x677B6C2C)
 I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x677B6C2C)

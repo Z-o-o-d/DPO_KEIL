@@ -6,10 +6,12 @@
 "dpo_keil\views.o"
 "dpo_keil\ws2812.o"
 "dpo_keil\mylib.o"
+"dpo_keil\aht20.o"
+"dpo_keil\mpu6050.o"
+"dpo_keil\tlc5952.o"
 "dpo_keil\main.o"
 "dpo_keil\stm32g4xx_it.o"
 "dpo_keil\stm32g4xx_hal_msp.o"
-"dpo_keil\aht20.o"
 "dpo_keil\stm32g4xx_hal_pcd.o"
 "dpo_keil\stm32g4xx_hal_pcd_ex.o"
 "dpo_keil\stm32g4xx_ll_usb.o"
@@ -29,6 +31,7 @@
 "dpo_keil\stm32g4xx_hal_adc.o"
 "dpo_keil\stm32g4xx_hal_adc_ex.o"
 "dpo_keil\stm32g4xx_ll_adc.o"
+"dpo_keil\stm32g4xx_hal_hrtim.o"
 "dpo_keil\stm32g4xx_hal_i2c.o"
 "dpo_keil\stm32g4xx_hal_i2c_ex.o"
 "dpo_keil\stm32g4xx_hal_uart.o"
@@ -46,7 +49,7 @@
 "dpo_keil\usbd_ctlreq.o"
 "dpo_keil\usbd_ioreq.o"
 "dpo_keil\usbd_cdc.o"
---strict --scatter "DPO_KEIL\DPO_KEIL.sct"
+--library_type=microlib --strict --scatter "DPO_KEIL\DPO_KEIL.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "DPO_KEIL.map" -o DPO_KEIL\DPO_KEIL.axf

@@ -1,14 +1,13 @@
-dpo_keil/usbd_desc.o: ..\USB_Device\App\usbd_desc.c \
-  ..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h \
-  ..\USB_Device\Target\usbd_conf.h \
-  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h \
-  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h \
-  ..\Drivers\CMSIS\Include\core_cm4.h \
-  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h \
+dpo_keil/stm32g4xx_hal_hrtim.o: \
+  ..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_hrtim.c \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h \
   ..\Core\Inc\stm32g4xx_hal_conf.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h \
+  ..\Drivers\CMSIS\Include\core_cm4.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h \
@@ -36,8 +35,4 @@ dpo_keil/usbd_desc.o: ..\USB_Device\App\usbd_desc.c \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h \
-  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h \
-  ..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h \
-  ..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h \
-  ..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h \
-  ..\USB_Device\App\usbd_desc.h
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h
