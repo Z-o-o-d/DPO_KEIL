@@ -226,14 +226,16 @@ int main(void)
   TLC5952_Init();
   
   // WS2812_Set_All(0xcc66ff);
-  WS2812_Set_All(0x001000);
-  WS2812_Update();
+  // WS2812_Set_All(0x001000);
+  // WS2812_Update();
     
   HAL_HRTIM_SimplePWMStart(&hhrtim1,HRTIM_TIMERINDEX_TIMER_C,HRTIM_OUTPUT_TC1);
   
   HAL_UARTEx_ReceiveToIdle_DMA(&huart1, BLE_rx_data, sizeof(BLE_rx_data));
   __HAL_DMA_DISABLE_IT(huart1.hdmarx, DMA_IT_HT);
   
+
+  WS2812_Write_Colors(rainbow_colors,10);
 
 
   /* USER CODE END 2 */
@@ -1044,7 +1046,7 @@ static void MX_TIM20_Init(void)
   htim20.Instance = TIM20;
   htim20.Init.Prescaler = 0;
   htim20.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim20.Init.Period = 65535;
+  htim20.Init.Period = 179;
   htim20.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim20.Init.RepetitionCounter = 0;
   htim20.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
