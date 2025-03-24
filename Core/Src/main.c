@@ -134,6 +134,21 @@ uint8_t LOCK_CH1 = 0;
 
 char BUFFER_CDC[500]="hello world\r\n";
 
+
+// 彩虹颜色配置
+RGBColor rainbow_colors[WS2812_NUM] = {
+    {255,   0,   0},
+    {255, 115,   0},
+    {255, 201,   0},
+    {229, 242,   0},
+    { 51, 153,   0},
+    {  0,  64, 127},
+    { 14,   0, 230},
+    { 67,   0, 142},
+    {172,  77, 194},
+    {243,  91, 166}
+};
+
 /* USER CODE END 0 */
 
 /**
@@ -201,29 +216,24 @@ int main(void)
   
   HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_1);
   
-  ST7789_Init();
-  
-  AHT20_Init();
-  
   MPU6050_Init();
   
-  WS2812_Set_All(0xcc66ff);
-  WS2812_Set_All(0x000000);
-  
-  WS2812_Update();
-  
+  ST7789_Init();
   View_DoubaoWelcome();
+  
+  AHT20_Init();
+
+  TLC5952_Init();
+  
+  // WS2812_Set_All(0xcc66ff);
+  WS2812_Set_All(0x001000);
+  WS2812_Update();
+    
+  HAL_HRTIM_SimplePWMStart(&hhrtim1,HRTIM_TIMERINDEX_TIMER_C,HRTIM_OUTPUT_TC1);
   
   HAL_UARTEx_ReceiveToIdle_DMA(&huart1, BLE_rx_data, sizeof(BLE_rx_data));
   __HAL_DMA_DISABLE_IT(huart1.hdmarx, DMA_IT_HT);
   
-	
-	TLC5952_Init();
-
-
-
-  HAL_HRTIM_SimplePWMStart(&hhrtim1,HRTIM_TIMERINDEX_TIMER_C,HRTIM_OUTPUT_TC1);
-
 
 
   /* USER CODE END 2 */
@@ -250,13 +260,23 @@ int main(void)
 
 
 
+
+
+
+
     
     MPU6050_Read_All(&data_mpu6050);
+
+    // sprintf(BUFFER_CDC,"ADC1: %f,%f\r\n",data_mpu6050.KalmanAngleX,data_mpu6050.KalmanAngleY);//加速度计
+
+    // CDC_Transmit_FS((uint8_t*)BUFFER_CDC,strlen(BUFFER_CDC));
+
+
     HAL_GPIO_WritePin(LED_ONBARD_GPIO_Port, LED_ONBARD_Pin, 1);
-    HAL_Delay(100);
+    // HAL_Delay(100);
     AHT20_Read(&Temperature,&Humidity);
     HAL_GPIO_WritePin(LED_ONBARD_GPIO_Port, LED_ONBARD_Pin, 0);
-    HAL_Delay(100);
+    // HAL_Delay(100);
 
 		TLC5952_WriteLED();
 		TLC5952_WriteControl();

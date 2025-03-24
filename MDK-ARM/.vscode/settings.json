@@ -14,6 +14,7 @@
         "ws2812.h": "c",
         "aht20.h": "c",
         "mpu6050.h": "c",
-        "mylib.h": "c"
+        "mylib.h": "c",
+        "views.h": "c"
     }
 }
