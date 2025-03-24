@@ -88,7 +88,6 @@ TIM_HandleTypeDef htim8;
 TIM_HandleTypeDef htim20;
 DMA_HandleTypeDef hdma_tim20_ch3;
 
-
 /* USER CODE BEGIN PV */
 uint8_t BLE_rx_data[256] = {0};
 
@@ -99,7 +98,7 @@ float Temperature,Humidity=0;
 
 
 
-uint32_t CMP_SET= 0x00ff;
+uint32_t CMP_SET= 0x30;
 
 /* USER CODE END PV */
 
@@ -265,7 +264,7 @@ int main(void)
     
     // HRTIM1->sTimerxRegs[HRTIM_TIMERINDEX_TIMER_C].CMP1xR = CMP_SET;
 
-    __HAL_HRTIM_SETCOMPARE(&hhrtim1, HRTIM_TIMERINDEX_TIMER_C, HRTIM_COMPAREUNIT_1, CMP_SET++);
+    __HAL_HRTIM_SETCOMPARE(&hhrtim1, HRTIM_TIMERINDEX_TIMER_C, HRTIM_COMPAREUNIT_1, CMP_SET);
 
     HAL_HRTIM_SoftwareUpdate(&hhrtim1, HRTIM_TIMERUPDATE_C);
 
@@ -301,7 +300,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV4;
-  RCC_OscInitStruct.PLL.PLLN = 85;
+  RCC_OscInitStruct.PLL.PLLN = 90;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV6;
   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
   RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
@@ -522,8 +521,8 @@ static void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pTimeBaseCfg.Period = 0xFFDF;
-  pTimeBaseCfg.RepetitionCounter = 0x00;
+  pTimeBaseCfg.Period = 0x60;
+  pTimeBaseCfg.RepetitionCounter = 0;
   pTimeBaseCfg.PrescalerRatio = HRTIM_PRESCALERRATIO_MUL32;
   pTimeBaseCfg.Mode = HRTIM_MODE_CONTINUOUS;
   if (HAL_HRTIM_TimeBaseConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_C, &pTimeBaseCfg) != HAL_OK)
@@ -537,7 +536,7 @@ static void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pSimplePWMChannelCfg.Pulse = 0x7FDF;
+  pSimplePWMChannelCfg.Pulse = 0x30;
   pSimplePWMChannelCfg.Polarity = HRTIM_OUTPUTPOLARITY_HIGH;
   pSimplePWMChannelCfg.IdleLevel = HRTIM_OUTPUTIDLELEVEL_INACTIVE;
   if (HAL_HRTIM_SimplePWMChannelConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_C, HRTIM_OUTPUT_TC1, &pSimplePWMChannelCfg) != HAL_OK)
@@ -567,7 +566,7 @@ static void MX_I2C3_Init(void)
 
   /* USER CODE END I2C3_Init 1 */
   hi2c3.Instance = I2C3;
-  hi2c3.Init.Timing = 0x40B285C2;
+  hi2c3.Init.Timing = 0x40621236;
   hi2c3.Init.OwnAddress1 = 0;
   hi2c3.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c3.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
